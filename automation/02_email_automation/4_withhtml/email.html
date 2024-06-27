@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome</h1>
+        </div>
+        <div class="content">
+            {{ email_body }}
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 PariChakra. All rights reserved.</p>
+            <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/yourprofile" target="_blank" style="color: white;"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/parichakra" target="_blank" style="color: white;"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/yourprofile" target="_blank" style="color: white;"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank" style="color: white;"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
